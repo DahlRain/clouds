@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/dialog_jk"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="60dp"
+        android:layout_height="6dp"
+        android:layout_gravity="center"
+        android:background="#eeeeee"
+        app:cardBackgroundColor="#EEEEEE"
+        app:cardCornerRadius="12px"
+        app:cardElevation="0dp" />
+
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/jk1"
+        style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="接口1"
+        android:layout_marginTop="9dp"
+        app:iconGravity="textStart"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="-16dp"
+        tools:layout_editor_absoluteY="62dp" />
+
+    <com.google.android.material.button.MaterialButton
+    android:id="@+id/jk2"
+    android:layout_marginTop="19dp"
+    style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="接口2"
+    app:iconGravity="textStart"
+    tools:ignore="MissingConstraints"
+    tools:layout_editor_absoluteX="-16dp"
+    tools:layout_editor_absoluteY="62dp" />
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/jk3"
+        android:layout_marginTop="19dp"
+        style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="接口3"
+        app:iconGravity="textStart"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="-16dp"
+        tools:layout_editor_absoluteY="62dp" />
+</LinearLayout>

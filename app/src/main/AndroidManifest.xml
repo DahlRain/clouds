@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.dahl.myapp" >
+    <!--修改或删除您的SD卡中的内容-->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <!--读取您的SD卡中的内容-->
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <!--在其他应用之上显示内容-->
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW"/>
+    <!--读取手机状态和身份-->
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <!--完全的网络访问权限-->
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <!--查看网络连接-->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <!--查看WLAN连接-->
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <!--精确位置（基于GPS和网络）-->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <!--与蓝牙设备配对-->
+    <uses-permission android:name="android.permission.BLUETOOTH"/>
+
+
+    <application
+        android:usesCleartextTraffic="true"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/ic_launcher"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

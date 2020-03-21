@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">云搜索</string>
+    <string name="action_settings">设置</string>
+    <string name="action_abouts">关于</string>
+    <string name="action_jks">切换接口</string>
+</resources>

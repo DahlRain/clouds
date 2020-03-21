@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/ggll"
+    android:orientation="vertical">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="60dp"
+        android:layout_marginTop="15dp"
+        android:layout_height="6dp"
+        android:layout_gravity="center"
+        android:background="#eeeeee"
+        app:cardBackgroundColor="#EEEEEE"
+        app:cardCornerRadius="12px"
+        app:cardElevation="0dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="公告"
+        android:layout_marginLeft="25dp"
+        android:textColor="#FF000000"
+        android:textSize="20sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:text="new"
+        android:id="@+id/ggnr"
+        android:textColor="#FF000000"
+        android:textSize="14sp" />
+
+
+
+    <Button
+        android:id="@+id/zdl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="知道了"
+        android:layout_margin="20dp"
+        android:layout_gravity="right"
+        android:layout_marginTop="16dp"/>
+
+</LinearLayout>
